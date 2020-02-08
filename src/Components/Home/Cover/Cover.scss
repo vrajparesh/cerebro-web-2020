@@ -1,0 +1,143 @@
+@import "../../../scss/imports";
+
+.cover {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-container {
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cerebro-title {
+  font-size: 80px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.cont {
+  display: flex;
+  padding: 20px 0 70px;
+  width: max-content;
+  height: max-content;
+  align-items: center;
+  vertical-align: auto;
+  justify-content: center;
+}
+
+.second-title {
+  width: max-content;
+  font-size: 30px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.hr-container-x {
+  padding: 1rem;
+  display: inline-block;
+}
+
+.hr-second-title {
+  text-decoration-color: #29abe2;
+  width: 3rem;
+  padding-top: 0.1rem;
+}
+
+.timer {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  vertical-align: auto;
+}
+
+.date-labels {
+  padding: 38px;
+}
+
+.t {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.16;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.cover-image {
+  width: fit-content;
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .group {
+    width: 25rem;
+    align-self: center;
+  }
+
+  .cover-particle {
+    position: absolute;
+  }
+
+  .circ1 {
+    width: 2rem;
+    top: 35%;
+    left: -50px;
+  }
+
+  .circ2 {
+    width: 0.7rem;
+    top: 48%;
+    left: -22px;
+  }
+
+  .circ3 {
+    width: 0.5rem;
+    top: -26px;
+    right: 85px;
+  }
+
+  .circ4 {
+    width: 1.5rem;
+    top: 18%;
+    right: -34px;
+  }
+
+  .circ5 {
+    width: 1rem;
+    top: 50%;
+    right: -40px;
+  }
+
+  .rect1 {
+    width: 3rem;
+    top: -35px;
+    right: 30%;
+  }
+
+  .rect2 {
+    width: 1.5rem;
+    top: 70%;
+    left: 10px;
+  }
+}
